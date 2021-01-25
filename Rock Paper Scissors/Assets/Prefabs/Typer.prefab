@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6490971986368889675
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6490971986368889673}
+  - component: {fileID: 6490971986368889674}
+  m_Layer: 0
+  m_Name: Typer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6490971986368889673
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6490971986368889675}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 146.11075, y: 254.40045, z: 905.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6490971986368889674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6490971986368889675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c652ff8b00e7f345a57e25524239004, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GameWinObject: {fileID: 0}
+  GameMenu: {fileID: 0}
+  EscapeMenu: {fileID: 0}
+  playerNameObject: {fileID: 0}
+  highscoreObject: {fileID: 0}
+  Hangman: {fileID: 0}
+  Stage1: {fileID: 21300000, guid: c44615e99f423a84dbf94064e8f96ebf, type: 3}
+  Stage2: {fileID: 21300000, guid: 9e3d6fac82635a5448c57ef8f5f2486c, type: 3}
+  Stage3: {fileID: 21300000, guid: 82214956d28acc84dbc206f12dbefeea, type: 3}
+  Stage4: {fileID: 21300000, guid: 5ce56c8e6a53232418a6a249f2a81876, type: 3}
+  Stage5: {fileID: 21300000, guid: 56bf26d17fedd6e43aaeb3e7578bef5f, type: 3}
+  Stage6: {fileID: 21300000, guid: 2f018b72c60056140b06b6fb123be597, type: 3}
+  Stage7: {fileID: 21300000, guid: 4140df9b355f7d1489808a3ff2f93fbf, type: 3}
+  Stage8: {fileID: 21300000, guid: f2b8cfade23c95e4392ab7d002d61b73, type: 3}
+  Stage9: {fileID: 21300000, guid: 190157dc5f9dee84c80b6f64b4a010c0, type: 3}
+  Stage10: {fileID: 21300000, guid: f4f1c51e6bb618440b76c3f8bdcb7c2b, type: 3}
+  DontShowLives: {fileID: 21300000, guid: b5d824dd08140134a97b504c7a61bbcf, type: 3}
+  timeRemainingOutput: {fileID: 0}
+  wordOutput: {fileID: 0}
+  liveOutput: {fileID: 0}
+  scoreOutput: {fileID: 0}
+  highscoreOutput: {fileID: 0}
+  guessedLettersOutput: {fileID: 0}
+  playerNameOutput: {fileID: 0}
+  textFile: {fileID: 4900000, guid: f687cdca450ea60498bd403cfb673abd, type: 3}
